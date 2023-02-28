@@ -21,4 +21,5 @@ jobs:
             console.log('Envs', process.env)
 
   call-reusable:
+    needs: the-job
     uses: ./.github/workflows/reusableWorkflow.yml
