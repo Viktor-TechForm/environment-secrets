@@ -12,102 +12,6 @@ jobs:
           SECOND_SECRET_2: ${{ secrets.SECOND_SECRET_2 }}
           SECOND_SECRET_3: ${{ secrets.SECOND_SECRET_3 }}
           SECOND_SECRET_4: ${{ secrets.SECOND_SECRET_4 }}
-          SECOND_SECRET_5: ${{ secrets.SECOND_SECRET_5 }}
-          SECOND_SECRET_6: ${{ secrets.SECOND_SECRET_6 }}
-          SECOND_SECRET_7: ${{ secrets.SECOND_SECRET_7 }}
-          SECOND_SECRET_8: ${{ secrets.SECOND_SECRET_8 }}
-          SECOND_SECRET_9: ${{ secrets.SECOND_SECRET_9 }}
-          SECOND_SECRET_10: ${{ secrets.SECOND_SECRET_10 }}
-          SECOND_SECRET_11: ${{ secrets.SECOND_SECRET_11 }}
-          SECOND_SECRET_12: ${{ secrets.SECOND_SECRET_12 }}
-          SECOND_SECRET_13: ${{ secrets.SECOND_SECRET_13 }}
-          SECOND_SECRET_14: ${{ secrets.SECOND_SECRET_14 }}
-          SECOND_SECRET_15: ${{ secrets.SECOND_SECRET_15 }}
-          SECOND_SECRET_16: ${{ secrets.SECOND_SECRET_16 }}
-          SECOND_SECRET_17: ${{ secrets.SECOND_SECRET_17 }}
-          SECOND_SECRET_18: ${{ secrets.SECOND_SECRET_18 }}
-          SECOND_SECRET_19: ${{ secrets.SECOND_SECRET_19 }}
-          SECOND_SECRET_20: ${{ secrets.SECOND_SECRET_20 }}
-          SECOND_SECRET_21: ${{ secrets.SECOND_SECRET_21 }}
-          SECOND_SECRET_22: ${{ secrets.SECOND_SECRET_22 }}
-          SECOND_SECRET_23: ${{ secrets.SECOND_SECRET_23 }}
-          SECOND_SECRET_24: ${{ secrets.SECOND_SECRET_24 }}
-          SECOND_SECRET_25: ${{ secrets.SECOND_SECRET_25 }}
-          SECOND_SECRET_26: ${{ secrets.SECOND_SECRET_26 }}
-          SECOND_SECRET_27: ${{ secrets.SECOND_SECRET_27 }}
-          SECOND_SECRET_28: ${{ secrets.SECOND_SECRET_28 }}
-          SECOND_SECRET_29: ${{ secrets.SECOND_SECRET_29 }}
-          SECOND_SECRET_30: ${{ secrets.SECOND_SECRET_30 }}
-          SECOND_SECRET_31: ${{ secrets.SECOND_SECRET_31 }}
-          SECOND_SECRET_32: ${{ secrets.SECOND_SECRET_32 }}
-          SECOND_SECRET_33: ${{ secrets.SECOND_SECRET_33 }}
-          SECOND_SECRET_34: ${{ secrets.SECOND_SECRET_34 }}
-          SECOND_SECRET_35: ${{ secrets.SECOND_SECRET_35 }}
-          SECOND_SECRET_36: ${{ secrets.SECOND_SECRET_36 }}
-          SECOND_SECRET_37: ${{ secrets.SECOND_SECRET_37 }}
-          SECOND_SECRET_38: ${{ secrets.SECOND_SECRET_38 }}
-          SECOND_SECRET_39: ${{ secrets.SECOND_SECRET_39 }}
-          SECOND_SECRET_40: ${{ secrets.SECOND_SECRET_40 }}
-          SECOND_SECRET_41: ${{ secrets.SECOND_SECRET_41 }}
-          SECOND_SECRET_42: ${{ secrets.SECOND_SECRET_42 }}
-          SECOND_SECRET_43: ${{ secrets.SECOND_SECRET_43 }}
-          SECOND_SECRET_44: ${{ secrets.SECOND_SECRET_44 }}
-          SECOND_SECRET_45: ${{ secrets.SECOND_SECRET_45 }}
-          SECOND_SECRET_46: ${{ secrets.SECOND_SECRET_46 }}
-          SECOND_SECRET_47: ${{ secrets.SECOND_SECRET_47 }}
-          SECOND_SECRET_48: ${{ secrets.SECOND_SECRET_48 }}
-          SECOND_SECRET_49: ${{ secrets.SECOND_SECRET_49 }}
-          SECOND_SECRET_50: ${{ secrets.SECOND_SECRET_50 }}
-          SECOND_SECRET_51: ${{ secrets.SECOND_SECRET_51 }}
-          SECOND_SECRET_52: ${{ secrets.SECOND_SECRET_52 }}
-          SECOND_SECRET_53: ${{ secrets.SECOND_SECRET_53 }}
-          SECOND_SECRET_54: ${{ secrets.SECOND_SECRET_54 }}
-          SECOND_SECRET_55: ${{ secrets.SECOND_SECRET_55 }}
-          SECOND_SECRET_56: ${{ secrets.SECOND_SECRET_56 }}
-          SECOND_SECRET_57: ${{ secrets.SECOND_SECRET_57 }}
-          SECOND_SECRET_58: ${{ secrets.SECOND_SECRET_58 }}
-          SECOND_SECRET_59: ${{ secrets.SECOND_SECRET_59 }}
-          SECOND_SECRET_60: ${{ secrets.SECOND_SECRET_60 }}
-          SECOND_SECRET_61: ${{ secrets.SECOND_SECRET_61 }}
-          SECOND_SECRET_62: ${{ secrets.SECOND_SECRET_62 }}
-          SECOND_SECRET_63: ${{ secrets.SECOND_SECRET_63 }}
-          SECOND_SECRET_64: ${{ secrets.SECOND_SECRET_64 }}
-          SECOND_SECRET_65: ${{ secrets.SECOND_SECRET_65 }}
-          SECOND_SECRET_66: ${{ secrets.SECOND_SECRET_66 }}
-          SECOND_SECRET_67: ${{ secrets.SECOND_SECRET_67 }}
-          SECOND_SECRET_68: ${{ secrets.SECOND_SECRET_68 }}
-          SECOND_SECRET_69: ${{ secrets.SECOND_SECRET_69 }}
-          SECOND_SECRET_70: ${{ secrets.SECOND_SECRET_70 }}
-          SECOND_SECRET_71: ${{ secrets.SECOND_SECRET_71 }}
-          SECOND_SECRET_72: ${{ secrets.SECOND_SECRET_72 }}
-          SECOND_SECRET_73: ${{ secrets.SECOND_SECRET_73 }}
-          SECOND_SECRET_74: ${{ secrets.SECOND_SECRET_74 }}
-          SECOND_SECRET_75: ${{ secrets.SECOND_SECRET_75 }}
-          SECOND_SECRET_76: ${{ secrets.SECOND_SECRET_76 }}
-          SECOND_SECRET_77: ${{ secrets.SECOND_SECRET_77 }}
-          SECOND_SECRET_78: ${{ secrets.SECOND_SECRET_78 }}
-          SECOND_SECRET_79: ${{ secrets.SECOND_SECRET_79 }}
-          SECOND_SECRET_80: ${{ secrets.SECOND_SECRET_80 }}
-          SECOND_SECRET_81: ${{ secrets.SECOND_SECRET_81 }}
-          SECOND_SECRET_82: ${{ secrets.SECOND_SECRET_82 }}
-          SECOND_SECRET_83: ${{ secrets.SECOND_SECRET_83 }}
-          SECOND_SECRET_84: ${{ secrets.SECOND_SECRET_84 }}
-          SECOND_SECRET_85: ${{ secrets.SECOND_SECRET_85 }}
-          SECOND_SECRET_86: ${{ secrets.SECOND_SECRET_86 }}
-          SECOND_SECRET_87: ${{ secrets.SECOND_SECRET_87 }}
-          SECOND_SECRET_88: ${{ secrets.SECOND_SECRET_88 }}
-          SECOND_SECRET_89: ${{ secrets.SECOND_SECRET_89 }}
-          SECOND_SECRET_90: ${{ secrets.SECOND_SECRET_90 }}
-          SECOND_SECRET_91: ${{ secrets.SECOND_SECRET_91 }}
-          SECOND_SECRET_92: ${{ secrets.SECOND_SECRET_92 }}
-          SECOND_SECRET_93: ${{ secrets.SECOND_SECRET_93 }}
-          SECOND_SECRET_94: ${{ secrets.SECOND_SECRET_94 }}
-          SECOND_SECRET_95: ${{ secrets.SECOND_SECRET_95 }}
-          SECOND_SECRET_96: ${{ secrets.SECOND_SECRET_96 }}
-          SECOND_SECRET_97: ${{ secrets.SECOND_SECRET_97 }}
-          SECOND_SECRET_98: ${{ secrets.SECOND_SECRET_98 }}
-          SECOND_SECRET_99: ${{ secrets.SECOND_SECRET_99 }}
-          SECOND_SECRET_100: ${{ secrets.SECOND_SECRET_100 }}
           REPO_SECRET_1: ${{ secrets.REPO_SECRET_1 }}
           REPO_SECRET_2: ${{ secrets.REPO_SECRET_2 }}
           REPO_SECRET_3: ${{ secrets.REPO_SECRET_3 }}
@@ -115,3 +19,7 @@ jobs:
           script: |
             console.log('numOfEnvs', Object.keys(process.env).length);
             console.log('Envs', process.env)
+
+      - name: Calls reusable workflow
+        uses: ./.github/workflows/reusableWorkflow.yml
+        secrets: inherit

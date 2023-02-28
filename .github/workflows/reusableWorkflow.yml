@@ -1,0 +1,17 @@
+name: Reusable Workflow
+on: workflow_call
+jobs:
+  do-the-reusable:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: print secrets
+        uses: actions/github-script@v6.4.0
+        env:
+          prod_secret_1: ${{ secrets.prod_secret_1 }}
+          prod_secret_2: ${{ secrets.prod_secret_2 }}
+          prod_secret_3: ${{ secrets.prod_secret_3 }}
+        with:
+          script: |
+            console.log('numOfEnvs', Object.keys(process.env).length);
+            console.log('Envs', process.env)
