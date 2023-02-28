@@ -1,4 +1,4 @@
-name: Pull Request
+name: Env 2 workflow
 on: workflow_dispatch
 jobs:
   the-job:
@@ -20,6 +20,6 @@ jobs:
             console.log('numOfEnvs', Object.keys(process.env).length);
             console.log('Envs', process.env)
 
-      - name: Calls reusable workflow
-        uses: ./.github/workflows/reusableWorkflow.yml
-        secrets: inherit
+  call-reusable:
+    uses: ./.github/workflows/reusableWorkflow.yml
+    secrets: inherit
