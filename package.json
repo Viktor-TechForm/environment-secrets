@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "libsodium-wrappers": "0.7.11",
+    "octokit": "2.0.14"
+  },
+  "scripts": {
+    "workflowEnv": "node createWorkflowEnv.js",
+    "github": "node createSecretsInGithub.js"
+  },
+  "type": "module"
+}
