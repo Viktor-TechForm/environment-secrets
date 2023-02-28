@@ -108,6 +108,9 @@ jobs:
           FIRST_SECRET_98: ${{ secrets.FIRST_SECRET_98 }}
           FIRST_SECRET_99: ${{ secrets.FIRST_SECRET_99 }}
           FIRST_SECRET_100: ${{ secrets.FIRST_SECRET_100 }}
+          REPO_SECRET_1: ${{ secrets.REPO_SECRET_1 }}
+          REPO_SECRET_2: ${{ secrets.REPO_SECRET_2 }}
+          REPO_SECRET_3: ${{ secrets.REPO_SECRET_3 }}
         with:
           script: |
             console.log('numOfEnvs', Object.keys(process.env).length);
